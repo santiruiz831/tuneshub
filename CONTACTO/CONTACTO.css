@@ -1,0 +1,45 @@
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font: oblique;
+    color: green;
+}
+
+p {
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+p.em {
+    font-size: 16px;
+    text-align: center;
+    color: green;
+} 
+
+html {
+    font-size: small; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    /*position: relative;*/
+  
+    width  : 840px;
+    height : 498px;
+    margin : 0 auto;
+  
+    background: #FFF url(background.jpg);
+ }
+
+ body {
+    font  : 21px sans-serif;
+  
+    padding : 2em;
+    margin  : 0;
+  
+    /*background : #222;*/
+  }
+
+
+

@@ -1,0 +1,294 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{background-color: black;}
+    
+    #header{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(107, 107, 107);
+        border-radius: 0%;
+        position: fixed;
+        z-index: 30;
+        width: 100%;
+    }
+    
+    ul {
+            display: flex;
+            margin: auto;
+            margin-left: 5px;
+    }
+    
+    #opciones:hover{
+        background-color: rebeccapurple;
+    }
+    
+    #opciones {
+        color: hsl(0, 0%, 0%);
+        font-size: 13px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        text-decoration: none;
+        margin-right: 8px;
+    }
+        
+    #logo{width: 40px;}
+    
+    /* hasta aca es el css del header */
+    
+    /* ARTISTAS*/
+    #segunartista {
+        padding-left: 16px;
+        padding-top: 34px;
+    }
+    
+    #tituloartista {
+        color: blanchedalmond;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        padding-top: 21px;
+    }
+    
+    
+    #listadoartistas{display: none;}
+    
+    #listadocanciones{display: none;}
+    
+    .esqueletosegunartista{display: flexbox;
+        padding-top: 10px;
+    }
+    
+        
+    #fotogenero {width: 100px;
+    }
+            
+    #nombre {
+            color: crimson;
+            margin-left: 30px;
+            padding-top: 12px;
+            list-style-type: none;
+    }
+        
+    #cantante{display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    
+    .esqueletogenero{display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    
+    
+    /* CANCIONES*/
+    #titulocanciones {
+        color: blanchedalmond;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        padding-top: 21px;
+        padding-left: 16px;
+    }
+    
+    #track {
+        width: 320px;
+        height: 92px;
+        margin-top: 10px;
+    }
+    
+    /*ALBUMS*/
+    #topalbums {
+        padding-left: 16px;
+    
+    }
+    
+    #listadoalbum{display: none;}
+    #tituloalbum {
+        color: blanchedalmond;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        padding-top: 21px;
+        padding-left: 0px;
+    }
+    
+    /* GENERO*/
+    
+    #generos{margin-top: 30px;}
+    #conoce{font-size: 20px;
+    margin-left: 5px;}
+    #logogenero{width: 300px;
+        border-radius: 50%;
+    }
+        
+    .esqueletogenero{margin-bottom: 20px;align-items: center;}
+    
+    
+    
+    @media (min-width:321px){
+    
+        a {
+            color: hsl(0, 0%, 0%);
+            font-size: 15px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            text-decoration: none;
+            padding-right: 11px;
+        }
+        #track {
+            width: 375px;
+            height: 92px;
+            margin-top: 10px;
+        }
+    
+    
+    
+        #opciones {
+            color: hsl(0, 0%, 0%);
+            font-size: 14px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            text-decoration: none;
+            margin-right: 11px;
+        }
+    
+        #listadocanciones{margin-left: 10px;}
+    }
+    
+    @media (min-width:376px){
+    
+       
+    
+        a {
+            color: hsl(0, 0%, 0%);
+            font-size: 15px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            text-decoration: none;
+            padding-right: 11px;
+        }
+    
+        #listadocanciones{margin-left: 30px;}
+    
+        .esqueletogenero {
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+        }
+    
+    }
+    
+    @media (min-width:426px){
+    
+        #logo {
+            width: 50px;
+        }
+    
+      
+        a {
+            color: hsl(0, 0%, 0%);
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            text-decoration: none;
+            padding-right: 20px;
+        }
+    
+        ul {
+            display: flex;
+            margin: auto;
+            margin-left: auto;
+        }
+    
+        #frasedeinicio {
+            color: rebeccapurple;
+            text-align: left;
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+            padding-top: 86px;
+            font-size: 18px;
+        }
+    
+        #listadoartistas{    grid-template-columns: 1fr 1fr;}
+        #listadocanciones{    grid-template-columns: 1fr 1fr;}
+    
+        #track {
+            width: 450px;
+            height: 91px;
+            margin-top: 10px;
+        }
+    
+        #conoce{font-weight: 27px;
+        text-align: center;}
+    
+        #tops{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+    
+        #titulocanciones {
+            color: blanchedalmond;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            padding-top: 56px;
+            padding-left: 7px;
+        }
+    
+        .esqueletogenero {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+        }
+    
+        .esqueletoalbum{    display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    
+    }
+    
+    @media (min-width:769px){
+    
+        #logo {
+            width: 50px;
+        }
+    
+    
+        a {
+            color: hsl(0, 0%, 0%);
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            text-decoration: none;
+            padding-right: 20px;
+        }
+    
+        ul {
+            display: flex;
+            margin: auto;
+            margin-left: auto;
+        }
+    
+        #track {
+            width: 506px;
+            height: 90px;
+            margin-top: 10px;
+        }
+    
+        #tops{ display: grid;
+        grid-template-columns: 3fr 5fr ;}
+    
+        #listadoartistas {
+            grid-template-columns: 1fr;
+        }
+        #tituloartista:hover{
+            background-color: rebeccapurple;
+        }
+        #titulocanciones:hover{
+            background-color: rebeccapurple;
+        }
+    
+    }
+    
+    @media (min-width:1025px){}

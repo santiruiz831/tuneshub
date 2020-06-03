@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Indicamos el uso de la pagina a nivel occidental-->
+    <meta charset="utf-8">
+    <!--la hoja de estilo es exclusivamente para esta pagina-->
+    <link href= "CONTACTO.css" rel= "stylesheet"> <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Contactenos</title>
+</head>
+    <body >
+       <div class="container">
+        <div class="jumbotron">
+        <!--definición de los scripts necesarios-->
+        <div>
+            <!--encabezadode la pagina-->
+            <h1>
+                Esperamos Tus Comentarios
+    
+            </h1>
+            <p>
+                Pedinos Tus Canciones Favoritas
+            </p>
+            <p>
+                <em>Resolvemos En 4 Horas</em>
+            </p>
+        </div>
+        <div center>
+            <!--formulario de contacto-->
+            <form name="formcontactos" action="enviar.html" method="GET"> 
+                <!-- Table border="5" bgcolor=""  cellpadding="5" cellspacing="5"> -->
+                <table class="table table-responsive"  border="5">
+                    <tr>
+                        <td width="25%">Apellido Y Nombre </td>
+                        <td><input type="text"  size="55" maxlength="30" value="" name="nombre" placeholder="nom y apel"></td>
+                    </tr>
+                   
+                    <!-- <tr> <td width="15%" bgcolor="red">one</td> </tr>
+                    <tr> <td width="15%" bgcolor="blue">two</td> </tr> -->  
+                    <tr>
+                        <td>Correo Electronico </td>
+                        <td><input type="email" size="55" maxlength="30" value="" name="correoe" placeholder="pepe@gmail.com"></td>
+                    </tr> 
+                    <tr> 
+                        <td>
+                            Tu Sugerencia
+                        </td>
+                        <td>
+                            <textarea name="comentarios" rows="5" cols="55" placeholder="Escribe Aquí Tus Comentarios"></textarea>
+                        </td>
+                    </tr>
+                    <tr><!-- <td><input type="submit" value="Enviar información" name="boton2"></td> -->
+                    <td>
+                        <button class="button" type="submit" name="boton1" onclick="javascript:alert('Gracias Por Contactarnos');">Enviar</button>
+                    </td></tr>
+                    <!--<td>njkkosaso</td> 
+                    <td><ul>
+                        <li>Esto</li>
+                        <li>Lo otro</li>
+                        <li>Lo de más allá</li>
+                       </ul></td>
+                       <td>
+                        <ul>
+                            <li>Esto</li>
+                            <li>Lo otro</li>
+                            <li>Lo de más allá</li>
+                           </ul>  
+                       </td> -->
+                </Table>
+               <!-- <tr><td>ñlcdskdsjdfhudahuadshuadshudafhu</td></tr> -->
+            </form>
+        </div>
+       <!-- <div>
+            acceso a redes sociales
+        </div> -->
+        </div> 
+    </div>
+    </body>
+
+</html>
