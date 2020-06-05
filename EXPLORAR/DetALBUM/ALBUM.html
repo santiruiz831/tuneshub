@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ALBUM</title>
-    <link rel="stylesheet" href="ALBUM.css">
-</head>
+    <link rel="stylesheet" href="ALBUM.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a0c0bb4f74.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
 
-    <div id="imagendelalbum"></div>
+    <nav id="header">
+      <div>
+        <img id="logo" src="../tunestunes.png" alt="logo" />
+      </div>
 
-    <div id="nombredelalbum"></div>
+      <ul style="list-style-type: none;">
+        <li>
+          <a id="opciones" href=""> INICIO</a>
+        </li>
+        <li>
+          <a id="opciones" style="color: aliceblue;" href="../EXPLORAR.html">EXPLORAR</a>
+        </li>
+        <li>
+          <a id="opciones" href="">PLAYLIST</a>
+        </li>
+        <li>
+          <a id="opciones" href="/CONTACTO/CONTACTO.html">CONTACTO</a>
+        </li>
+      </ul>
+    </nav>
 
-    <div id="nombredelartista"></div>
+    <div id="info">
+      <div id="imagendelalbum"></div>
+      <div id="datos">
+          <div id="nombredelalbum">
+              <h3>NOMBRE DEL ALBUM:</h3>
+            </div>
+            <div id="nombredelartista">
+                <h3>ARTISTA:</h3>
+            </div>
+            <div id="fechadesalida">
+                <h3>FECHA:</h3>
+            </div>
+        </div>
+    </div>
 
-    <div id="fechadesalida"></div>
-
-
+    <h1 id="conoce">escucha con nosotros...</h1>
+    <div id="canciones"></div>
+    <div id="phonesongs"></div>
 
 
     <script src="ALBUM.js"></script>
-</body>
+  </body>
 </html>
