@@ -1,0 +1,154 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{background-color: black;}
+
+    #header{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(107, 107, 107);
+        border-radius: 0%;
+        position: fixed;
+        z-index: 30;
+        width: 100%;
+    }
+    
+    ul {
+            display: flex;
+            margin: auto;
+            margin-left: 5px;
+    }
+    
+    #opciones:hover{
+        background-color: rebeccapurple;
+    }
+    
+    #opciones {
+        color: hsl(0, 0%, 0%);
+        font-size: 13px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        text-decoration: none;
+        margin-right: 8px;
+    }
+        
+    #logo{width: 40px;}
+
+    h3{
+        color: blanchedalmond;
+        font-size: 13px;
+    }
+
+    #imgartista{
+        margin-left: 10px;
+    }
+
+    #info{display: flex;
+    padding-top: 60px;}
+
+    #datos {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #nnumerodefans{
+        padding-top: 20px;
+    }
+
+    @media (min-width:321px){
+
+        a {
+            color: hsl(0, 0%, 0%);
+            font-size: 15px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            text-decoration: none;
+            padding-right: 11px;
+        }
+        
+        #opciones {
+            color: hsl(0, 0%, 0%);
+            font-size: 14px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            text-decoration: none;
+            margin-right: 11px;
+        }
+    }
+    
+    @media (min-width:376px){
+    
+       
+    
+        a {
+            color: hsl(0, 0%, 0%);
+            font-size: 15px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            text-decoration: none;
+            padding-right: 11px;
+        }
+    
+    
+    }
+    
+    @media (min-width:426px){
+    
+        #logo {
+            width: 50px;
+        }
+    
+      
+        a {
+            color: hsl(0, 0%, 0%);
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            text-decoration: none;
+            padding-right: 20px;
+        }
+    
+        ul {
+            display: flex;
+            margin: auto;
+            margin-left: auto;
+        }
+    
+
+    
+    }
+    
+    @media (min-width:769px){
+    
+        #logo {
+            width: 50px;
+        }
+    
+    
+        a {
+            color: hsl(0, 0%, 0%);
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            text-decoration: none;
+            padding-right: 20px;
+        }
+    
+        ul {
+            display: flex;
+            margin: auto;
+            margin-left: auto;
+        }
+    
+       
+    }
+    
+    @media (min-width:1025px){}
+
