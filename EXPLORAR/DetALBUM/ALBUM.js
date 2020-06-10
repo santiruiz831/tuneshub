@@ -18,7 +18,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/' + albu
        namedelAl.innerHTML += `<h3 id="namealbum" style="color: blueviolet; margin: auto;margin-left: 10px;">${datos.title}</h3>`
 
         let namedelArt = document.querySelector('#nombredelartista');
-        namedelArt.innerHTML += `<h3 id="nameartist" style="color: blueviolet; margin: auto;margin-left: 10px;">${datos.artist.name}</h3>`
+        namedelArt.innerHTML += `<a href="../detARTISTA/ARTISTA.html?id=${datos.artist.id}" id="hrefart"; style="text-decoration: none;" > <h3 id="nameartist" style="color: blueviolet; margin: auto;margin-left: 10px;">${datos.artist.name}</h3></a>`
 
         let fechdesal = document.querySelector('#fechadesalida');
         fechdesal.innerHTML += `<h3 id="fds" style="color: blueviolet; margin: auto;margin-left: 10px;">${datos.release_date}</h3>`
