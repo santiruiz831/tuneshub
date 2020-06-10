@@ -291,4 +291,18 @@
     
     }
     
-    @media (min-width:1025px){}
+    @media (min-width:1025px){
+        #pc{
+            display: grid;
+            grid-template-columns: 66% 33%;
+        }
+
+        #topalbums {
+            padding-left: 16px;
+            padding-top: 35px;
+        }
+
+        .esqueletoalbum {
+            display: block;
+        }
+    }
