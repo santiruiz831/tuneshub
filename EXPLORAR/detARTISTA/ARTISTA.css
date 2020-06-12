@@ -66,10 +66,20 @@
     #boton{background-color: gray;}
     #mas{text-align: center;}
 
+    #topfive{display: none;}
+    #topfives{
+        margin-left: 11px;
+    }
+
+    #boton {
+    background-color: gray;
+    margin-right: 9px;
+}
+
     @media (min-width:321px){
 
         a {
-            color: hsl(0, 0%, 0%);
+            color: hsl(0, 23%, 8%);
             font-size: 15px;
             text-align: center;
             font-family: 'Poppins', sans-serif;
@@ -87,6 +97,16 @@
             text-decoration: none;
             margin-right: 11px;
         }
+
+        #topfives{
+            margin-left: 11px;
+        }
+    
+        #boton {
+        background-color: gray;
+        margin-right: 63px;
+        height: 23px;
+    }
     }
     
     @media (min-width:376px){
@@ -103,11 +123,15 @@
             padding-right: 11px;
         }
 
-        #widget{margin-left: 10px;}
+        #widget{margin-left: 13px;}
         #boton {
             background-color: gray;
             width: 400px;
         }
+
+        #topfive{display: block;}
+        #topfives{display: none;}
+
     
     
     }
@@ -137,10 +161,10 @@
 
         #frame{width: 750px;}
     
-        #boton {
-            background-color: gray;
-            width: 750px;
-        }
+#boton {
+    background-color: gray;
+    width: 750px;
+}
     
     }
     
