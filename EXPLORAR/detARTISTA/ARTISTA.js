@@ -31,8 +31,16 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/' + art
     })
 
     .then(function(dato){
+        console.log(dato.data)
 
-        console.log(dato)
+        let song = dato.data
+        console.log(song)
+
+        let cancion = document.querySelector('#topfive');
+       
+        song.forEach(function(dataArtist){
+            cancion.innerHTML += `<div id="widget"> <iframe id="frame"; scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=400&height=350&color=007FEB&layout=dark&size=medium&type=tracks&id=${dataArtist.id}&app_id=1" width="400" height="90"></iframe></div>`        
+        })
 
     })
     .catch(function(error){

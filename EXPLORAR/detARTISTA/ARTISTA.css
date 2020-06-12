@@ -45,17 +45,23 @@
         margin-left: 10px;
     }
 
-    #info{display: flex;
-    padding-top: 60px;}
+    #info {
+        display: flex;
+        padding-top: 60px;
+        margin-bottom: 20px;
+        background-color: #a14b4b4f;
+    }
 
     #datos {
         margin-left: 10px;
         margin-top: 10px;
     }
 
-    #nnumerodefans{
+    #numerodefans{
         padding-top: 20px;
     }
+
+    #widget{margin-bottom: 20px;}
 
     @media (min-width:321px){
 
@@ -93,6 +99,8 @@
             text-decoration: none;
             padding-right: 11px;
         }
+
+        #widget{margin-left: 10px;}
     
     
     }
@@ -119,6 +127,8 @@
             margin: auto;
             margin-left: auto;
         }
+
+        #frame{width: 750px;}
     
 
     
