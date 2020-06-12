@@ -95,6 +95,16 @@
         height: 92px;
         margin-top: 10px;
     }
+
+    #boton{
+        width: 100%;
+        background-color: gray;
+        align-items: center;
+    }
+
+    #mas {
+        text-align: center;
+    }
     
     /*ALBUMS*/
     #topalbums {

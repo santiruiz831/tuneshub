@@ -1,4 +1,3 @@
-
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -36,35 +35,10 @@
     }
         
     #logo{width: 40px;}
-
-    h3{
-        color: blanchedalmond;
-        font-size: 13px;
-    }
-
-    #imgartista{
-    }
-
-    #info {
-        display: flex;
-        padding-top: 60px;
-        margin-bottom: 20px;
-        background-color: #a14b4b4f;
-    }
-
-    #datos {
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-
-    #numerodefans{
-        padding-top: 20px;
-    }
-
-    #widget{margin-bottom: 20px;}
-
-    #boton{background-color: gray;}
-    #mas{text-align: center;}
+    #paredon{display: block;
+        background-color: black;
+        height: 45px;
+        }
 
     @media (min-width:321px){
 
@@ -102,12 +76,6 @@
             text-decoration: none;
             padding-right: 11px;
         }
-
-        #widget{margin-left: 10px;}
-        #boton {
-            background-color: gray;
-            width: 400px;
-        }
     
     
     }
@@ -134,13 +102,8 @@
             margin: auto;
             margin-left: auto;
         }
-
-        #frame{width: 750px;}
     
-        #boton {
-            background-color: gray;
-            width: 750px;
-        }
+
     
     }
     

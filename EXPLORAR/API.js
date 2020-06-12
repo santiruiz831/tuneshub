@@ -21,7 +21,8 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0')
         canciones.forEach(function(dataCancion){
             console.log(dataCancion)
             tracksContenedor.innerHTML += ` <div>
-            <iframe id="track" scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=ff0000&layout=dark&size=medium&type=tracks&id=` +dataCancion.id +`&app_id=1"></iframe></div> `
+            <iframe id="track" scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=ff0000&layout=dark&size=medium&type=tracks&id=` +dataCancion.id +`&app_id=1"></iframe></div>
+            <div id="boton"><a href="/EXPLORAR/detCANCION/CANCION.html?id=${dataCancion.id}"  style="text-decoration: none;color:black"><p id="mas">VER MAS</p></a></div> `
     });
 
 

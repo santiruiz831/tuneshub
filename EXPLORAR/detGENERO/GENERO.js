@@ -40,13 +40,23 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/'+ Genre
     let namedelAR = document.querySelector('#diez');
     let imgdelAr = document.querySelector('#diezf'); 
 
-    artistas.forEach(function(dataArtist){    
+    var contar= 1;
+    
+    for(dataArtist of artistas){
+
+        contar = contar + 1;
         namedelAR.innerHTML += `<div id=esqueleto><a href="../detARTISTA/ARTISTA.html?id=${dataArtist.id}" id="artistas" style="text-decoration: none;" >
         <div   style="display: flex;margin-top:20px">
         <img style="border-radius: 50%; width:50px ;" src="${dataArtist.picture_medium}" alt="">
         <h3 style="color: blueviolet; margin: auto;margin-left: 10px;">${dataArtist.name}</h3>
         </div></a></div>`
-    })
+
+
+    if (contar > 10){
+        break;
+        
+    }
+    }
     })
     .catch(function(error){
         console.error(error);

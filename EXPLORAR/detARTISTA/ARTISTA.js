@@ -39,7 +39,8 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/' + art
         let cancion = document.querySelector('#topfive');
        
         song.forEach(function(dataArtist){
-            cancion.innerHTML += `<div id="widget"> <iframe id="frame"; scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=400&height=350&color=007FEB&layout=dark&size=medium&type=tracks&id=${dataArtist.id}&app_id=1" width="400" height="90"></iframe></div>`        
+            cancion.innerHTML += `<div id="widget"> <iframe id="frame"; scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=400&height=350&color=007FEB&layout=dark&size=medium&type=tracks&id=${dataArtist.id}&app_id=1" width="400" height="90"></iframe>
+            <div id="boton"><a href="/EXPLORAR/detCANCION/CANCION.html?id=${dataArtist.id}"  style="text-decoration: none;color:black"><p id="mas">VER MAS</p></a></div></div>`        
         })
 
     })
