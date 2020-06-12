@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+
+.box-with-text-2 {
+  background-image: -webkit-linear-gradient(rgb(117, 47, 110) 50%, rgb(199, 68, 160) 80%);
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-size: 100% 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-animation: stripes 2s linear infinite;
+  animation: stripes 2s linear infinite;
+}
+
+@-webkit-keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+
+@keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+
+.box-with-text-2 {
+  position: relative;
+  display:block;
+  margin-top:50px;
+  left: 50%;
+  white-space: nowrap;
+  text-align: center;
+  text-transform: uppercase;
+  font-size:40px;
+  font-family: bold Open Sans, Impact;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
