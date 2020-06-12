@@ -24,3 +24,18 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/' + art
     .catch(function(error){
         console.error(error);
     })
+
+    fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/' + artistId + '/top')
+    .then(function(respuesta){
+        return respuesta.json();
+    })
+
+    .then(function(dato){
+
+        console.log(dato)
+
+    })
+    .catch(function(error){
+        console.error(error);
+    })
+
